@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap= cv2.imread(r'C:\Users\DK0626\Desktop\Sun Flower.jpg')
+cap= cv2.imread(r'C:\Users\DK0626\Desktop\picrer\Sun Flower.jpg')
 cap = cv2.resize(cap,(640,480))
 kernel = np.ones((2,2),np.uint8)
 img1 = cv2.VideoCapture(0)

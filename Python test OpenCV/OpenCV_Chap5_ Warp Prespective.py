@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np
 
-img = cv2.imread(r'C:\Users\DK0626\Desktop\Sun Flower.jpg')
+img = cv2.imread(r'C:\Users\DK0626\Desktop\picter\Sun Flower.jpg')
 img1 = cv2.resize(img,(640,480))
 width, height = 250,350
 
