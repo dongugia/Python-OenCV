@@ -62,7 +62,7 @@ closing_price = scaler.inverse_transform(closing_price)
 train = new_data[:987]
 valid = new_data[987:]
 valid['Predictions'] = closing_price
-df = pd.read_csv("./stock_data.csv")
+df = pd.read_csv(r"Data/stock_data.csv")
 app.layout = html.Div([
 
     html.H1("Stock Price Analysis Dashboard", style={"textAlign": "center"}),
