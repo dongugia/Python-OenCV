@@ -1,0 +1,3 @@
+[numba_extensions]
+init = numba_scipy:_init_extension
+

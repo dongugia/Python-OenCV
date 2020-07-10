@@ -43,7 +43,7 @@ observed_emotions=['Yên Lặng', 'Vui Vẻ', 'Sợ Hãi', 'Căm Thù']
 # Tải dữ liệu và trích xuất các chức năng cho từng loại âm thanh
 def load_data(test_size=0.2):
     x,y = [], []
-    for file in glob.glob(r"C:\Users\DK0626\Desktop\Audio_Speech_Actors_01-24\Actor_*\*.wav"):
+    for file in glob.glob(r"C:\Users\DK0626\Desktop\Python\Data\Audio_Speech_Actors_01-24\Actor_*\*.wav"):
         file_name= os.path.basename(file)
         emotion = emotions[file_name.split("-")[2]]
         if emotion not in observed_emotions:
